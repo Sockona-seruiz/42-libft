@@ -6,7 +6,7 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/09 10:25:05 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/22 15:05:16 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/10/28 10:45:22 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -19,8 +19,8 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 	char			*dest;
 
 	i = 0;
-	if ((NULL == (dest = (char *)malloc(sizeof(char) * (len + 1)))
-			|| !s))
+	if ((!s ||
+		NULL == (dest = (char *)malloc(sizeof(char) * (len + 1)))))
 		return (NULL);
 	while (s[i])
 		i++;

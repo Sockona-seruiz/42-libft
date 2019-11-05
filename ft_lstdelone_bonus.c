@@ -6,7 +6,7 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/14 10:20:02 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/22 16:41:21 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/10/29 09:11:11 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -18,6 +18,7 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 	if (!del || !lst)
 		return ;
 	del((void *)lst->content);
-	del((void *)lst->next);
+	lst->next = NULL;
 	free(lst);
+	lst = NULL;
 }
