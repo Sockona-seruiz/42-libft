@@ -6,7 +6,7 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/21 14:19:30 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/24 10:37:46 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/05 15:24:28 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -81,7 +81,7 @@ char			**ft_split(char const *s, char c)
 	int		ligne;
 	int		array[2];
 
-	if (!s || !c)
+	if (!s)
 		return (0);
 	array[0] = 0;
 	array[1] = 0;
