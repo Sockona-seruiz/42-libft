@@ -6,7 +6,7 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/10 11:24:35 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/15 18:33:03 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/07 12:16:01 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -18,11 +18,9 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	unsigned int	i;
 	char			*result;
 
-	i = 0;
 	if (s == 0 || f == 0)
 		return (0);
-	while (s[i])
-		i++;
+	i = ft_strlen(s);
 	if ((result = (char *)malloc(sizeof(char) * (i + 1))) == 0)
 		return (0);
 	i = 0;

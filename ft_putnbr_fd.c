@@ -6,12 +6,13 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/10 14:16:52 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/10 17:41:25 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/07 12:27:59 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include "libft.h"
 
 void	ft_putnbr_2(int nb, int fd)
 {

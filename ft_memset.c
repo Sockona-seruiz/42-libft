@@ -6,7 +6,7 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/07 13:14:17 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/17 13:46:56 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/06 12:00:17 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -15,7 +15,7 @@
 
 void	*ft_memset(void *s, int c, size_t n)
 {
-	unsigned int	i;
+	size_t			i;
 	char			*adr;
 	unsigned char	ch;
 

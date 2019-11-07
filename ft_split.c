@@ -6,14 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/21 14:19:30 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/05 15:24:28 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/07 11:48:00 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static	void	ft_freemalloc(char **dest, int ligne)
+static	int		ft_freemalloc(char **dest, int ligne)
 {
 	while (ligne >= 0)
 	{
@@ -21,9 +21,10 @@ static	void	ft_freemalloc(char **dest, int ligne)
 		ligne--;
 	}
 	free(dest);
+	return (0);
 }
 
-static	void	ft_filldest(char const *s, char c, char **dest, int *ar)
+static	int		ft_filldest(char const *s, char c, char **dest, int *ar)
 {
 	int ligne;
 
@@ -43,13 +44,13 @@ static	void	ft_filldest(char const *s, char c, char **dest, int *ar)
 				ar[1]++;
 			}
 			ar[0] = ar[0] + ar[1];
-			dest[ligne][ar[1]] = '\0';
+			dest[ligne++][ar[1]] = '\0';
 			ar[1] = 0;
-			ligne++;
 		}
 		else
 			ar[0]++;
 	}
+	return (1);
 }
 
 static	int		ft_count_line(char const *s, char c)
@@ -89,11 +90,9 @@ char			**ft_split(char const *s, char c)
 	i = 0;
 	ligne = ft_count_line(s, c);
 	if ((dest = (char **)malloc(sizeof(char *) * (ligne + 1))) == 0)
-	{
-		ft_freemalloc(dest, -1);
 		return (0);
-	}
-	ft_filldest(s, c, dest, array);
+	if ((ft_filldest(s, c, dest, array)) == 0)
+		return (0);
 	dest[ligne] = 0;
 	return (dest);
 }

@@ -6,7 +6,7 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/08 10:06:40 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/15 18:26:52 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/06 12:10:40 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -17,7 +17,7 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	const unsigned char	*src1;
 	const unsigned char	*src2;
-	unsigned int		i;
+	size_t				i;
 
 	if (n == 0)
 		return (0);
@@ -27,9 +27,7 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	while (i < n)
 	{
 		if (src1[i] != src2[i])
-		{
 			return ((unsigned char)src1[i] - (unsigned char)src2[i]);
-		}
 		i++;
 	}
 	return (0);

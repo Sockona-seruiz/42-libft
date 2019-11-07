@@ -6,30 +6,24 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/09 11:11:02 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/22 13:05:08 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/06 11:56:23 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+#include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*dest;
-	int		i;
-	int		j;
-	int		len;
+	size_t	i;
+	size_t	j;
+	size_t	len;
 
 	if (!s1 || !s2)
 		return (0);
-	i = 0;
-	j = 0;
-	while (s1[i])
-		i++;
-	len = i;
-	while (s2[j])
-		j++;
-	len = len + j;
+	len = ft_strlen(s1) + ft_strlen(s2);
 	i = -1;
 	j = -1;
 	if (NULL == (dest = (char *)malloc(sizeof(char) * (len + 1))))

@@ -6,13 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/08 14:57:58 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/21 10:29:25 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/06 12:14:44 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 #include <string.h>
+#include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
@@ -22,9 +23,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 
 	j = 0;
 	i = 0;
-	k = 0;
-	while (src[k] != '\0')
-		k++;
+	k = ft_strlen(src);
 	while (dst[i] != '\0' && i < size)
 		i++;
 	if (i >= size)

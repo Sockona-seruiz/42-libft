@@ -6,22 +6,13 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/09 11:40:52 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/22 14:40:33 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/06 13:59:27 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-
-static	int		ft_len(char const *s1)
-{
-	int i;
-
-	i = 0;
-	while (s1[i])
-		i++;
-	return (i);
-}
+#include "libft.h"
 
 static	int		ft_chkl(char const *s1, char const *set, int start, int sens)
 {
@@ -29,9 +20,7 @@ static	int		ft_chkl(char const *s1, char const *set, int start, int sens)
 	int len;
 	int btn;
 
-	len = 0;
-	while (s1[len])
-		len++;
+	len = ft_strlen(s1);
 	btn = 1;
 	j = 0;
 	while (btn == 1)
@@ -68,7 +57,7 @@ char			*ft_strtrim(char const *s1, char const *set)
 		dest[0] = '\0';
 		return (dest);
 	}
-	i = ft_len(s1);
+	i = ft_strlen(s1);
 	len = i;
 	end = i - 1 - (ft_chkl(s1, set, i - 1, (-1)));
 	if (0 == (dest = (char *)malloc(sizeof(char) * (len - start - end + 1))))
