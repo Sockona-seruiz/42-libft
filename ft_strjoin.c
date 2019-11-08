@@ -6,10 +6,15 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/09 11:11:02 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/06 11:56:23 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:22:26 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** mallocs and returns a string wich is
+** the result of concatenation between s1 and s2
+*/
 
 #include <stdlib.h>
 #include "libft.h"

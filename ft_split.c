@@ -6,12 +6,20 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/21 14:19:30 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/07 11:48:00 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:38:26 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
+/*
+** allocates and return a (char **) obtained by spliting s with (char) c
+*/
+
 #include "libft.h"
+
+/*
+** free each malloced word, then the whole (char **)
+*/
 
 static	int		ft_freemalloc(char **dest, int ligne)
 {
@@ -23,6 +31,12 @@ static	int		ft_freemalloc(char **dest, int ligne)
 	free(dest);
 	return (0);
 }
+
+/*
+** runs through s, then through each word, calculate its len
+** mallocates it then fill (char **) dest with each word
+** ar[0] & ar[1] are just a i and a j, used to run through s
+*/
 
 static	int		ft_filldest(char const *s, char c, char **dest, int *ar)
 {
@@ -52,6 +66,10 @@ static	int		ft_filldest(char const *s, char c, char **dest, int *ar)
 	}
 	return (1);
 }
+
+/*
+** runs through s and count how many word will have to be malloced
+*/
 
 static	int		ft_count_line(char const *s, char c)
 {

@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/10 14:16:52 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/07 12:27:59 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:12:37 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** writes an integer to a fd
+*/
 
 #include <unistd.h>
 #include "libft.h"

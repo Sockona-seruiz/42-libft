@@ -6,10 +6,16 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/11 12:47:52 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/28 10:41:49 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:04:14 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** create a new list in wich every content is the result
+** of the old list content, passed trough f
+** returns a pointer to the first element of the new list
+*/
 
 #include "libft.h"
 

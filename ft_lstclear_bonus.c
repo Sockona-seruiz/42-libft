@@ -6,10 +6,15 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/14 15:08:01 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/29 09:12:26 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 09:59:12 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** runs trough lst apply the del function to each content
+** then free each chain link
+*/
 
 #include "libft.h"
 

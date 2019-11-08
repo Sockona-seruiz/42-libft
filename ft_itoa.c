@@ -6,12 +6,20 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/09 16:30:34 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/22 16:46:03 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 09:55:25 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
 
+/*
+** convert integer to ASCII string
+*/
+
 #include "libft.h"
+
+/*
+** count how many characters are requiered in order to write n to dest
+*/
 
 static	int		ft_treatint(int n)
 {
@@ -33,6 +41,11 @@ static	int		ft_treatint(int n)
 	return (i);
 }
 
+/*
+** check if n is equal to 0 or if it is negative
+** it adds the '-' to the (char *)
+*/
+
 static	int		ft_aled(int n, char *result)
 {
 	if (n == 0)
@@ -48,12 +61,21 @@ static	int		ft_aled(int n, char *result)
 	return (0);
 }
 
+/*
+** allocate the memory and return dest if n = min int value
+*/
+
 static	char	*ft_minint(char *result)
 {
 	if ((result = ft_strdup("-2147483648")) == 0)
 		return (0);
 	return (result);
 }
+
+/*
+** launch others functions, allocate space for the (char *)
+** then fill result with ASCII digits
+*/
 
 char			*ft_itoa(int n)
 {

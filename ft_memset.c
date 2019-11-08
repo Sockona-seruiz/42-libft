@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/07 13:14:17 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/06 12:00:17 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:10:58 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** rites len bytes of value c to the string s
+*/
 
 #include <string.h>
 

@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/08 13:46:27 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/10 17:18:21 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:19:41 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** locates the first occurrence of c in the string pointed by s
+*/
 
 char	*ft_strchr(const char *s, int c)
 {

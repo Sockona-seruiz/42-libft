@@ -6,10 +6,15 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/09 10:25:05 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/10 17:28:10 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:36:36 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** allocates memory for a copy of the string s1
+** does the copy and returns a pointer to it
+*/
 
 #include <stdlib.h>
 

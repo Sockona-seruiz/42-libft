@@ -6,10 +6,17 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/09 10:25:05 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/06 11:44:32 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:34:37 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** Allocate (with malloc (3)) and return a string of
+** characters from the string given as argument
+** This new chain starts at the index 'start' and
+** has for maximum size 'len'
+*/
 
 #include <stdlib.h>
 

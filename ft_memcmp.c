@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/08 10:06:40 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/06 12:10:40 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:08:33 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** compares byte string s1 against byte string s
+*/
 
 #include <string.h>
 

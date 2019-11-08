@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/08 14:57:58 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/06 11:59:01 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:24:14 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** copies up to size - 1 characters from the NUL-terminated string src to dst
+*/
 
 #include <stdlib.h>
 #include <string.h>

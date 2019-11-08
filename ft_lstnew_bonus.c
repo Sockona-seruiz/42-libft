@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/11 10:35:34 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/22 13:37:45 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:05:59 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+**	create a new list link filled with (void *)content
+*/
 
 #include "libft.h"
 

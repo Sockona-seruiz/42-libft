@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/07 16:52:53 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/06 12:09:33 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:07:32 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** copies bytes from string src to string dst
+*/
 
 #include <string.h>
 

@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/08 14:57:58 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/06 12:14:44 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:23:39 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** appends the NUL-terminated string src to the end of dst
+*/
 
 #include <stdlib.h>
 #include <string.h>

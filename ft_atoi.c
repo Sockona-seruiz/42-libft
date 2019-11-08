@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/09 09:34:18 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/06 12:16:44 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 09:42:11 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** The atoi function convert ASCII string to integer
+*/
 
 int	ft_atoi(const char *str)
 {

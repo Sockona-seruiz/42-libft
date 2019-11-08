@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/10 13:21:58 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/07 12:25:59 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:12:08 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** writes the string s, then a \n
+*/
 
 #include <unistd.h>
 #include "libft.h"

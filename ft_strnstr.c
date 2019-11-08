@@ -6,10 +6,15 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/08 16:58:33 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/10 17:24:31 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:27:31 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** locates the first occurrence of the null-terminated string needle in
+** the null-terminated string haystack
+*/
 
 #include <string.h>
 

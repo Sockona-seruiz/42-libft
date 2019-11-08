@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/11 12:47:52 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/15 15:47:11 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:01:29 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** applies f function to each content of a chained list
+*/
 
 #include "libft.h"
 

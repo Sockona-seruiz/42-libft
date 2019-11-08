@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/11 15:29:23 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/22 14:58:03 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 09:56:38 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** run trough alst, then add the new list at the end
+*/
 
 #include "libft.h"
 

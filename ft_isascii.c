@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/08 13:08:15 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/18 02:33:55 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 09:47:06 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** check if c in included in the standard ascii table (not extended)
+*/
 
 int	ft_isascii(int c)
 {

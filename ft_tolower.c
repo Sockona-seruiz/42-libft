@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/08 13:16:32 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/10 17:16:24 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:35:02 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** converts an upper-case letter to the corresponding lower-case letter
+*/
 
 int	ft_tolower(int c)
 {

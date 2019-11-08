@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/07 16:52:53 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/22 12:20:25 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:10:19 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** copies len bytes from string src to string dst. The two strings may overlap
+*/
 
 #include <string.h>
 

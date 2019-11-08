@@ -6,10 +6,14 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/07 16:52:53 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/22 12:19:03 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:09:07 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** copies n bytes from memory area src to memory area dst
+*/
 
 #include <stdlib.h>
 

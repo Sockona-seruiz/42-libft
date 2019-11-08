@@ -6,10 +6,16 @@
 /*   By: seruiz <marvin@le-101.fr>                  +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/08 10:06:40 by seruiz       #+#   ##    ##    #+#       */
-/*   Updated: 2019/10/18 02:15:39 by seruiz      ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/08 10:37:15 by seruiz      ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
+
+/*
+** return an integer greater than, equal to, or less than0
+** according as the string s1 is greater than,
+** equal to, or less than the string s2
+*/
 
 #include <string.h>
 
